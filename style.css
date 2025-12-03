@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f6f6f6;
+    color: #0e0d0d;
+}
+
+
+.courses{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.course-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.course-card{
+    background: #dfd8d8;
+    width: 300px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+   
+}
+
+.text-color{
+    color: #6d3f1e;
+
+}
+
+.course-card img{
+    width: 100%;
+    border-radius: 10px ;
+}
+
+.course-card:hover{
+    transform: translateY(-10px);
+}
